@@ -1,0 +1,12 @@
+{
+  "name": "botronaut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bisheshtilara/botronaut.git",
+  "author": "Bishesh Tilara <bisheshtilara@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.1.4",
+    "typescript": "^5.0.4"
+  }
+}
