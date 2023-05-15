@@ -5,8 +5,11 @@
   "repository": "git@github.com:bisheshtilara/botronaut.git",
   "author": "Bishesh Tilara <bisheshtilara@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
+  "start:dev": "yarn nodemon",
+    "devDependencies": {
     "@types/node": "^20.1.4",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   }
 }
