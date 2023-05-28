@@ -16,7 +16,7 @@ export const getRedditPosts = (api: string, message: Message) => {
       res.data.data.children
         .filter((post: any) => post.data.ups > 500)
         .sort((a: any, b: any) => b.data.ups - a.data.ups)
-        .slice(0, 5)
+        .slice(0, 10)
         .map((post: any) => ({
           title: post.data.title,
           post_hint: post.data.post_hint,
